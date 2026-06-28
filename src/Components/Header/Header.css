@@ -1,0 +1,20 @@
+h1 {
+    font-size: 52px;
+    font-weight: 600;
+  background: linear-gradient(135deg, #9710f9, #6a00ff, #ff4fd8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+  letter-spacing: -1.68px;
+  margin: 52px 0;
+}
+
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+}

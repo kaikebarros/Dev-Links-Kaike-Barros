@@ -1,0 +1,26 @@
+.card {
+  background: #0b0a12;
+  border: 1px solid rgba(151, 16, 249, 0.25);
+  border-radius: 16px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  width: 100%;
+  max-width: 380px;
+
+  padding: 24px;
+  margin: 1rem auto;
+
+  box-sizing: border-box;
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 20px rgba(151, 16, 249, 0.25),
+              0 20px 40px rgba(0, 0, 0, 0.5);
+  border-color: rgba(151, 16, 249, 0.6);
+}
