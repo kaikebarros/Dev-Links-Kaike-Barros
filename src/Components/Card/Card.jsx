@@ -6,13 +6,13 @@ import "./Card.css";
   };
 
   const AbrirLinkedIn = () => {
-     window.open("https:www.linkedin.com/in/kaike-barros", "_blank");
+     window.open("https://www.linkedin.com/in/kaike-barros", "_blank");
    };
    const AbrirPortifolio = () => {
-     window.open("https:portif-lio-kaikebarros.vercel.app/","_blank");
+     window.open("https://portif-lio-kaikebarros.vercel.app/","_blank");
    };
    const AbrirInstagram = () => {
-     window.open("https:www.instagram.com/kaikebarross?igsh=bDBjODhrazJmbDdm","_blank");
+     window.open("https://www.instagram.com/kaikebarross?igsh=bDBjODhrazJmbDdm","_blank");
    };
 
 function Card() {
